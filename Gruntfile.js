@@ -5,9 +5,9 @@ module.exports = function (grunt) {
        separator: ';',
       },
       dist: {
-       src: ['dist/calc.js', 'dist/rectangle.js'],
-       dest: 'dist/handle.js',
-      },
+       src: ['calc.js', 'rectangle.js'],
+       dest: 'dist/bundle.js',
+      }
              
     }
   });
