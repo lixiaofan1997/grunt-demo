@@ -1,13 +1,13 @@
 module.exports = function (grunt) {
   grunt.initConfig({
-    imagesmin: {
+    imagemin: {
       dynamic:{
-        files:[ {
+        files:[{
             expand: true,
-            cwd: 'src/',
+            cwd: './images',
             src: ['**/*.{png,jpg,gif}'],
             dest: 'dist/'
-        }]
+         }]
                      
       }       
                   
