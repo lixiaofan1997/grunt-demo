@@ -8,7 +8,9 @@
     "grunt-contrib-cssmin": "^3.0.0",
     "grunt-contrib-htmlmin": "^3.0.0",
     "grunt-contrib-imagemin": "^3.1.0",
-    "grunt-contrib-uglify": "^4.0.0"
+    "grunt-contrib-uglify": "^4.0.0",
+    "npm": "^6.9.0",
+    "update": "^0.7.4"
   },
   "devDependencies": {
     "grunt": "^1.0.3",
