@@ -1,0 +1,31 @@
+{
+  "name": "grunt-demo",
+  "version": "1.0.0",
+  "description": "课上demo整理",
+  "main": "Gruntfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "grunt": "^1.0.3",
+    "grunt-eslint": "^21.0.0",
+    "grunt-mocha-cli": "^4.0.0",
+    "grunt-run": "^0.8.1",
+    "mocha": "^6.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lixiaofan1997/grunt-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lixiaofan1997/grunt-demo/issues"
+  },
+  "homepage": "https://github.com/lixiaofan1997/grunt-demo#readme",
+  "directories": {
+    "test": "test"
+  }
+}

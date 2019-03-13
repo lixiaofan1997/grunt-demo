@@ -1,18 +1,23 @@
 module.exports = function (grunt) {
   grunt.initConfig({
-    csslint: {
-      options: {
-        csslintrc: '.csslintrc'
-          
+    mochacli: {
+       options: {
+          reporter: 'spec',
+          bail: true 
       },
-        src: ['*.css']
-        
-    }
-               
+          all: ['test/*.js']
+   },
+   run: {
+     apiServer: {
+           options: { wait: false  },
+             args: ['./app.js']             
+        }
+       
+   }
   });
 
-    grunt.loadNpmTasks('grunt-contrib-csslint');
-
-    grunt.registerTask('default', ['csslint']);
+    grunt.loadNpmTasks('grunt-mocha-cli');
+    grunt.loadNpmTasks('grunt-run');
+    grunt.registerTask('default', ['mochacli','run','stop']);
 
 };
