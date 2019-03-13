@@ -1,4 +1,4 @@
-function add(x,y){
+/*function add(x,y){
   if (((typeof  x) ==='number') &&((typeof  y) ==='number')){
 return x+y;
   }
@@ -7,9 +7,9 @@ return x+y;
 }
 
 }
+module.exports=add;*/
 
-/*
 function add(x,y){
   return(Number(x)+Number(y));
 }
-module.exports=add;*/
+module.exports=add;
